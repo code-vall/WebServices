@@ -115,6 +115,7 @@ class Celular {
 $uni = new Universidad("Universidad Nacional", "Bogotá", 15, "pública", "Carlos Pérez");
 $cole = new Colegio("Colegio San José", "Medellín", "Primaria y Secundaria", 1200, "Ana Ramírez");
 $celu = new Celular("Samsung", "Galaxy S22", "Android", 128, 64);
+$celu = new Celular("Samsung", "Galaxy S22", "Android", 128, 64);
 
 // Imprimir un método de cada objeto
 echo $uni->mostrarNombre() . "<br>";
